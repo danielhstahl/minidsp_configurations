@@ -1,0 +1,1 @@
+For the calibration, the 90deg was used, with the mic pointed towards the ceiling.

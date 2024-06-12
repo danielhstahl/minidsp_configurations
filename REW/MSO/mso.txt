@@ -1,0 +1,5 @@
+Following https://www.minidsp.com/applications/subwoofer-tuning/minidsp-multi-sub-optimizer
+
+-10 in REW, 10db-150db sweep, -34 in MiniDSP, no filters in MiniDSP at all.
+
+Since I use the Harman curve (which boosts bass by 6db) and since the subwoofers were already 5.5 DB "hot" to the 68 db "reference", I chose not to apply any gain/trim before performing MSO calibration/measurement.
