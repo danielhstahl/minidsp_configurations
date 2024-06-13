@@ -1,0 +1,3 @@
+Once the subwoofer has been added, I applied the bass management and routes and merged the two subwoofers into a single input (still SL on USB; once calibration is complete, this needs to be rerouted to point to LFE).
+
+Then I reran the impulse functions with the "one" subwoofer to calculate delays for the "one" subwoofer.
