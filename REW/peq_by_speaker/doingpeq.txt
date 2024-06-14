@@ -1,3 +1,5 @@
 Once the subwoofer has been added, I applied the bass management and routes and merged the two subwoofers into a single input (still SL on USB; once calibration is complete, this needs to be rerouted to point to LFE).
 
 Then I reran the impulse functions with the "one" subwoofer to calculate delays for the "one" subwoofer.
+
+I decided not to apply PEQ to the satellite speakers.  There are areas with bumps and for the L and R areas with some nulls, but the complexity of managing the PEQs and the reduction in headroom by introducing PEQs made them not worth it for the 

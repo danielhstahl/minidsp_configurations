@@ -20,9 +20,15 @@ Delay SubBack: -6.6748 ms
 
 Since delays can only be positive, and giving enough "room" for the sub:
 
-Delay L: 10 ms (reference)
-Delay R: 10.3 ms
-Delay Center: 9.3525 ms
-Delay SL: 7.6032
-Delay SR: 8.0665
+Delay L: 12 ms (reference)
+Delay R: 12.3 ms
+Delay Center: 11.3525 ms
+Delay SL: 9.6032
+Delay SR: 10.0665
+
+After MSO: Calibration sub as single entity relative to other speakers.
+
+Delay Sub relative: -10.6613
+Delay Sub absolute: 1.3387
+Delay SubBack (after adding 11.78 delay to SubFront): 13.1187
 

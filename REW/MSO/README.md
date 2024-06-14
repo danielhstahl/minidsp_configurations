@@ -8,11 +8,18 @@ During these sweeps, subwoofers were quite a bit "hotter" than I expected, so ga
 
 I use Config 1 in Project2.  This put a minimum on the size of the PEQs to keep headroom for the subs.  
 
-The subwoofers both have "gains" of -5.09.  In addition, the fromt subwoofer has an additional -4.21 gain.
+The subwoofers both have "gains" of -5.09.  In addition, the front subwoofer has an additional -4.21 gain.
 
-The Minidsp gains are thus:
+The relative Minidsp gains are thus:
 
 * SubFront: -9.30
 * SubBack: -5.09
+
+Note, however, that the sub signal has not yet received the required 10db boost (since LFE is mixed 10db low).  So the actual gains are:
+
+* SubFront: .7
+* SubBack: 4.91
+
+Since the PEQs only reduce, don't boost, and since the overall volume of the MiniDSP is unlikely to get near clipping, this boost should not induce digital clipping except at extreme volumes.
 
 The SubBack has a delay (relative to SubFront) of 11.78 ms
