@@ -7,3 +7,12 @@ Since I use the Harman curve (which boosts bass by 6db) and since the subwoofers
 During these sweeps, subwoofers were quite a bit "hotter" than I expected, so gain came down quite a bit to hit the 68 db reference.
 
 I use Config 1 in Project2.  This put a minimum on the size of the PEQs to keep headroom for the subs.  
+
+The subwoofers both have "gains" of -5.09.  In addition, the fromt subwoofer has an additional -4.21 gain.
+
+The Minidsp gains are thus:
+
+* SubFront: -9.30
+* SubBack: -5.09
+
+The SubBack has a delay (relative to SubFront) of 11.78 ms
